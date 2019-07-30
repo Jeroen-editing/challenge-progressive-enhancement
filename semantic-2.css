@@ -1,0 +1,37 @@
+body {
+    width: 90%;
+    margin-left: 75px;
+}
+
+
+
+p {
+    margin: 40px 0;
+    color: darkslategray;
+    font-family: Serif;
+    letter-spacing: 2px;
+}
+
+#alan {
+    margin-left: 670px;
+}
+
+blockquote, q {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 12px;
+    font-style: italic;
+    font-size: 160%;
+    background-color: rgba(172, 180, 181, 0.3);
+    border-right: 3px solid darkgrey;
+    border-left: 3px solid darkgrey;
+}
+
+a {
+    padding: 2px 2px;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    background-color: #B9D0FE;
+    font-weight: 700;
+}
