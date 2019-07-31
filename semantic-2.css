@@ -1,37 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     width: 90%;
     margin-left: 75px;
+    background-image: url(Rock_balancing.jpg), linear-gradient(45deg, #587491, #A6330F, #DBB463, #587491);
+    background-size: 30%, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 750px, left;
+    background-position-y: 1310px, top;
+}
+
+h1, h2, p {
+    margin: 20px 0;
+}
+
+h1, .p1 {
+    background-color: #DBB463;
+    padding: 8px 0 8px 20px;
+    border: 2px solid #587491;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    padding: 20px;
+    margin-right: 25px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #DBB463;
+    float: left;
+}
+
+h1, h2, p, li {
+    font-family: Loma;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
 }
 
 
+.p2 {
+    display: inline-block;
+    float: left;
+}
 
-p {
-    margin: 40px 0;
-    color: darkslategray;
-    font-family: Serif;
-    letter-spacing: 2px;
+ul {
+    display: inline-block;
+    margin: 60px 70px 0 -40px;
+}
+
+blockquote, q{
+    display: block;
+    font-style: italic;
+}
+
+blockquote, .apes {
+    display: inline-block;
+    width: 70%;
+    margin-left: 120px;
+    padding: 60px 30px;
+    font-size: 28;
+    background-color: rgba(36, 54, 59, 0.3);
+    border-right: 3px solid #141821;
+    border-left: 3px solid #141821;
+}
+
+blockquote {
+    margin-top: 60px;
 }
 
 #alan {
-    margin-left: 670px;
+    margin-left: 640px;
+    font-size: 22px;
 }
 
-blockquote, q {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    padding: 8px 12px;
-    font-style: italic;
-    font-size: 160%;
-    background-color: rgba(172, 180, 181, 0.3);
-    border-right: 3px solid darkgrey;
-    border-left: 3px solid darkgrey;
+.farmers {
+    padding: 0 6px;
+    display: inline;
+    border-left: 2px solid forestgreen;
+}
+
+em {
+    border-left: 2px solid darkorange;
+    margin: 0 6px;
+    padding: 0 6px;
+}
+
+h2, .ptable {
+    margin-left: 70px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+table {
+    margin-left: 110px;
+    border: 3px solid #141821;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+th {
+    padding: 5px 15px;
+    background-color: lightgray;
+    border: 3px solid #141821;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px 15px;
+    background-color: gray;
+    border: 3px solid #141821;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.maybe {
+    background-color: darkkhaki;
+}
+
+.ptable {
+    margin-left: 110px;
+}
+
+.apes {
+    width: 38%;
+    margin-left: 30px;
 }
 
 a {
-    padding: 2px 2px;
+    padding: 2px 6px;
     border: 1px solid darkblue;
     border-radius: 4px;
     background-color: #B9D0FE;
     font-weight: 700;
+}
+
+a:hover {
+    background-color: #A6330F;
+}
+
+.pgoodbad{
+    margin-left: 70px;
+    font-size: 22px;
+}
+
+.good, .bad {
+    text-transform: uppercase;
+}
+
+.good {
+    color: #0C471A;
+}
+
+.bad {
+    color: darkred;
 }
