@@ -6,11 +6,11 @@
 body {
     width: 90%;
     margin-left: 75px;
-    background-image: url(Rock_balancing.jpg), linear-gradient(45deg, #587491, #A6330F, #DBB463, #587491);
-    background-size: 30%, contain;
+    background-image: url(img/Rock_balancing.jpg), linear-gradient(45deg, #587491, #A6330F, #DBB463, #587491);
+    background-size: 31%, contain;
     background-repeat: no-repeat, no-repeat;
-    background-position-x: 750px, left;
-    background-position-y: 1310px, top;
+    background-position-x: 800px, left;
+    background-position-y: 1090px, top;
 }
 
 h1, h2, p {
@@ -105,6 +105,10 @@ h2 {
     font-weight: 900;
 }
 
+.subtitles {
+    margin-left: 80px;
+}
+
 table {
     margin-left: 110px;
     border: 3px solid #141821;
@@ -138,7 +142,7 @@ td {
 
 .apes {
     width: 38%;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 a {
@@ -168,4 +172,8 @@ a:hover {
 
 .bad {
     color: darkred;
+}
+
+footer {
+margin-left: 100px;
 }
