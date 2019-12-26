@@ -1,22 +1,24 @@
-<!doctype html>
-<meta charset="UTF-8">
-
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>The Story of the Chinese Farmer</title>
+
     <link href="semantic.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Mitr:400,500,600,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-    <h1>The Story of the Chinese Farmer</h1>
+    <h1 id="maintitle">The Story of the Chinese Farmer</h1>
     <p class="p1">11 may 2016, Alexandre Gorius</p>
 </header>
 <main>
-    <img src="img/horse1.jpeg" alt="" height="528" width="382">
+    <img id="horse" src="img/horse1.jpeg" alt="drawing oa chinese farmer horse" height="528" width="382">
 
     <p class="p2">Preamble</p>
 
@@ -26,21 +28,27 @@
         <li>then tell it to your best friend</li>
     </ul>
 
-    <h2>The story</h2>
+    <h2 class="story">The story</h2>
 
     <p class="p3">
-        Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbours came around
-        to commiserate. They said,<br><q class="farmers">We are so sorry to hear your horse has run away. This is most unfortunate.</q>
-        The farmer said, <em>"Maybe."</em> The next day the horse came back bringing seven wild horses with it, and in
-        the evening everybody came back and said, <q class="farmers">Oh, isn’t that lucky. What a great turn of events. You now have
-        eight horses!</q> The farmer again said, <em>"Maybe."</em>
+        Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his 
+        neighbours came around to commiserate. They said, <br><span id="farmers">[</span><q class="farmers">We are so sorry to hear 
+        your horse has run away. This is most unfortunate.</q><span id="farmers">]</span> The farmer said, <span id="father">[</span>
+        <em>"Maybe."</em><span id="father">]</span><br>
+        The next day the horse came back bringing seven wild horses with it, and in the evening 
+        everybody came back and said, <span id="farmers">[</span><q class="farmers">Oh, isn’t that lucky. What a great turn of 
+        events. You now have eight horses!</q><span id="farmers">]</span> The farmer again said, <span id="father">[</span>
+        <em>"Maybe."</em><span id="father">]</span>
     </p>
     <p class ="p4">
-        The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg.
-        The neighbors then said, <q class="farmers">Oh dear, that’s too bad,</q> and the farmer responded, <em>"Maybe."</em> The next
-        day the conscription officers came around to conscript people into the army, and they rejected his son because
-        he had a broken leg. Again all the neighbors came around and said, <q class="farmers">Isn’t that great!</q> Again, he said,
-        <em>"Maybe."</em>
+        The following day his son tried to break one of the horses, and while riding it, he was 
+        thrown and broke his leg. The neighbors then said, <span id="farmers">[</span><q class="farmers">Oh dear, that’s too 
+        bad,</q><span id="farmers">]</span> and the farmer responded, <span id="father">[</span><em>"Maybe."</em>
+        <span id="father">]</span><br>
+        The next day the conscription officers came around to conscript people into the army, and they 
+        rejected his son because he had a broken leg. Again all the neighbors came around and said,
+        <span id="farmers">[</span><q class="farmers">Isn’t that great!</q><span id="farmers">]</span> Again, he said, 
+        <span id="father">[</span><em>"Maybe."</em><span id="father">]</span>
     </p>
 
     <blockquote>
@@ -52,11 +60,13 @@
     <p id="alan">Alan Watts <a href="https://nl.wikipedia.org/wiki/Alan_Watts" title="More info about Alan Watts">
         (wikipedia: Alan Watts)</a></p>
 
-    <h2 class="subtitles">
-    Here is this dialog in the form of a table
+    <h2 class="subtitles" id="tabletitle">
+    The dialog in the form of a table
     </h2>
 
-    <table border="1">
+    <img id="stones" src="img/Rock_balancing.jpg" alt="balancing rocks">
+
+    <table>
         <tr>
             <th>Event</th>
             <th>Good or bad ?</th>
@@ -80,7 +90,7 @@
     </table>
 
     <p class="ptable">
-    Table representing the farmer's philosophy.
+    * Table representing the farmer's philosophy.
     </p>
 
     <h2 class="subtitles">
@@ -91,7 +101,7 @@
         <strong class="good">Good</strong> and <strong class="bad">Bad</strong> are just one perspective.
     </p>
     <q class="apes">
-        Bananas are good for monkeys, but monkeys are not good for bananas. <br>
+        Bananas are good for monkeys, but monkeys are not good for bananas.
         Let's not make a big deal out of it...
     </q>
 
