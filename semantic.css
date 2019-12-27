@@ -6,7 +6,8 @@
 body {
     max-width: 1280px;
     padding-left: 30px;
-    background-image: linear-gradient(45deg, #587491, rgb(166, 68, 15), rgb(219, 165, 99), #587491);
+
+    background-color: rgb(193, 126, 60);
     background-size: contain;
     background-repeat: no-repeat;
     border-left: 2px solid black;
@@ -14,7 +15,7 @@ body {
 }
 
 h1, h2, p, ul {
-    margin: 40px 0 20px 40px;
+    margin: 40px 0 20px 50px;
     font-family: 'Mitr', sans-serif;
     font-weight: 400;
 }
@@ -27,7 +28,7 @@ h1, h2, p, ul {
 
 h1, .p1 {
     margin-right: 60px;
-    background-color: #DBB463;
+    background-color: rgb(222, 182, 103);
     padding: 12px 20px 8px 20px;
     border: 2px solid #587491;
     border-radius: 5px;
@@ -41,7 +42,7 @@ h1, .p1 {
 h2 {
     margin-left: 40px;
     padding: 6px 0 4px 10px;
-    width: 656px;
+    width: 646px;
     background-color: rgba(128, 128, 128, 0.65);
     border-left: 2px solid rgba(47, 79, 79, 0.8);
     border-bottom: 2px solid rgba(47, 79, 79, 0.8);
@@ -50,16 +51,16 @@ h2 {
 }
 
 .story {
-    margin-left: 506px;
-    max-width: 656px;
+    margin-left: 516px;
+    min-width: 666px;
 }
 
 #horse {
     padding: 20px;
-    margin: 8px 40px 0 40px;
+    margin: 8px 40px 0 50px;
     display: inline-block;
     border: 2px solid rgba(47, 79, 79, 0.8);
-    border-radius: 5px;
+    //border-radius: 5px;
     background-color: #DBB463;
     float: left;
 }
@@ -78,7 +79,7 @@ ul {
 .p3, .p4 {
     margin-left: 380px;
     margin-top: 16px;
-    max-width: 800px;
+    max-width: 820px;
     font-size: 18px;
     font-weight: 400;
     line-height: 125%;
@@ -91,7 +92,7 @@ blockquote, q{
 }
 
 #farmers {
-    color: forestgreen;
+    color: rgb(39, 155, 39);
     font-weight: 600;
 }
 
@@ -103,7 +104,7 @@ blockquote, q{
 }
 
 #father {
-    color: darkorange;
+    color: rgb(227, 174, 1);
     font-weight: 600;
 }
 
@@ -147,7 +148,13 @@ blockquote {
 }
 
 #stones {
-    margin-top: 40px;
+    size: 96%;
+    padding: 20px;
+    margin: 40px 40px 0 40px;
+    display: inline-block;
+    border: 2px solid rgba(47, 79, 79, 0.8);
+    //border-radius: 5px;
+    background-color: #DBB463;
 }
 
 table {
