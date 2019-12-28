@@ -6,7 +6,6 @@
 body {
     max-width: 1280px;
     padding-left: 30px;
-
     background-color: rgb(193, 126, 60);
     background-size: contain;
     background-repeat: no-repeat;
@@ -28,10 +27,10 @@ h1, h2, p, ul {
 
 h1, .p1 {
     margin-right: 60px;
-    background-color: rgb(222, 182, 103);
+    background-color: rgb(235, 192, 84);
     padding: 12px 20px 8px 20px;
     border: 2px solid #587491;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .p2 {
@@ -60,8 +59,7 @@ h2 {
     margin: 8px 40px 0 50px;
     display: inline-block;
     border: 2px solid rgba(47, 79, 79, 0.8);
-    //border-radius: 5px;
-    background-color: #DBB463;
+    background-color: rgb(235, 192, 84);
     float: left;
 }
 
@@ -80,20 +78,24 @@ ul {
     margin-left: 380px;
     margin-top: 16px;
     max-width: 820px;
+    color: black;
     font-size: 18px;
     font-weight: 400;
     line-height: 125%;
+    text-shadow: 0 0 2px rgba(255, 214, 110, 0.66);
 }
 
 blockquote, q{
     display: block;
-    color: rgb(22, 46, 46);
+    color: rgb(28, 60, 60);
+    text-shadow: 0 0 3px rgb(255, 217, 119);
     font-style: italic;
 }
 
 #farmers {
     color: rgb(39, 155, 39);
-    font-weight: 600;
+    font-weight: 900;
+    text-shadow: none;
 }
 
 .farmers {
@@ -105,7 +107,8 @@ blockquote, q{
 
 #father {
     color: rgb(227, 174, 1);
-    font-weight: 600;
+    font-weight: 900;
+    text-shadow: none;
 }
 
 em {
@@ -118,16 +121,18 @@ blockquote, .apes {
     display: inline-block;
     width: 75%;
     margin-left: 100px;
-    padding: 50px 36px;
+    padding: 50px 40px;
+    font-size: 22px;
     font-weight: 700;
-    background-color: rgba(36, 54, 59, 0.25);
-    border-right: 4px solid rgba(47, 79, 79, 0.8);
-    border-left: 4px solid rgba(47, 79, 79, 0.8);
+    letter-spacing: 1px;
+    line-height: 120%;
+    background-color: rgba(36, 54, 59, 0.2);
+    border-right: 4px solid rgba(28, 60, 60, 0.7);
+    border-left: 4px solid rgba(28, 60, 60, 0.7);
 }
 
 blockquote {
     margin-top: 60px;
-    font-size: 20px;
 }
 
 #alan {
@@ -141,6 +146,7 @@ blockquote {
 
 .subtitles {
     margin-left: 50px;
+    margin-top: -8px;
 }
 
 #tabletitle {
@@ -153,13 +159,12 @@ blockquote {
     margin: 40px 40px 0 40px;
     display: inline-block;
     border: 2px solid rgba(47, 79, 79, 0.8);
-    //border-radius: 5px;
-    background-color: #DBB463;
+    background-color: rgb(235, 192, 84);
 }
 
 table {
     margin-left: 120px;
-    margin-top: -480px;
+    margin-top: -474px;
     border: 3px solid #141821;
     border-collapse: separate;
     border-spacing: 4px;
@@ -190,7 +195,7 @@ td {
 }
 
 .maybe {
-    background-color: rgba(189, 183, 107, 0.7);
+    background-color: rgba(235, 192, 84, 0.7);
 }
 
 .ptable {
@@ -201,7 +206,6 @@ td {
     width: 74%;
     margin-left: 96px;
     margin-top: 10px;
-    font-size: 20px;
 }
 
 a {
@@ -218,8 +222,7 @@ a:hover {
 }
 
 .pgoodbad{
-    margin-left: 96px;
-    margin-bottom: 40px;
+    margin: 48px 0 48px 96px;
     font-size: 24px;
 }
 
@@ -237,6 +240,11 @@ a:hover {
 }
 
 footer {
-margin-left: 100px;
-margin-bottom: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.copy {
+    margin-top: 60px;
+    margin-bottom: -28px;
 }
